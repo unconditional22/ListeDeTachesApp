@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ListeDeTachesApp</string>
+    <string name="title_activity_edit_tache">EditTacheActivity</string>
+    <string name="edit_task_hint">Entrez tache a modifier : </string>
+    <string name="save_button_text">Sauvegarder</string>
+    <string name="list_title">Liste De Taches :</string>
+    <string name="task_hint">Entrez une tache : </string>
+    <string name="add_button_text">Ajouter</string>
+    <string name="edit_button_text">Modifier</string>
+    <string name="delete_button_text">Supprimer</string>
+    <string name="modifier_button_text">Modifier</string>
+
+</resources>

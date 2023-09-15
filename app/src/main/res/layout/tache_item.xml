@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/termineCheckBox"
+        android:layout_width="52dp"
+        android:layout_height="57dp" />
+
+    <Button
+        android:id="@+id/modifierButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modifier_button_text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_button_text"
+        android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/descriptionTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:textAppearance="?android:textAppearanceMedium"/>
+
+</LinearLayout>
